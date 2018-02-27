@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="A Tribute To Shri Devi"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_margin="83dp"
+		android:gravity="center">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="120dp"
+			android:src="@drawable/image_1"
+			android:adjustViewBounds="true"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_margin="53dp"
+		android:layout_marginTop="54dp">
+
+		<ProgressBar
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
